@@ -1,0 +1,13 @@
+CREATE TABLE AUTOMOVEIS (
+ID INT AUTO_INCREMENT PRIMARY KEY,
+CLIENTE VARCHAR(100) NOT NULL,
+MODELO VARCHAR(200) NOT NULL,
+PLACA VARCHAR(50) NOT NULL
+);
+
+INSERT INTO AUTOMOVEIS(ID, CLIENTE, MODELO, ANO, PLACA) VALUES
+(1, 'Henrique Gomes', 'Civic Sport', 'ABC123'),
+(2, 'Matheus Gomes', 'HB20', 'BCD234'),
+(3, 'Maria Antonia', 'Cruze', 'DEF567'),
+(4, 'Lucas Gomes', 'Montana', 'GHI890'),
+(5, 'Ryan Gomes', 'Creta', 'JKL798');
